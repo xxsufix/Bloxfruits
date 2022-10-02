@@ -1,0 +1,5 @@
+require(game.ReplicatedStorage.Notification).new("Why are you hacking?"):Display()
+wait(1)
+require(game.ReplicatedStorage.Notification).new("This is unacceptable..."):Display();
+wait(1)
+game.Players.LocalPlayer:Kick('You have been permanently banned from playing the game for trying to use exploits')
